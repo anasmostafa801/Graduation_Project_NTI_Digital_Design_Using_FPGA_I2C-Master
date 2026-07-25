@@ -1,0 +1,155 @@
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 03:15:13 on Jul 25,2026
+# vlog -reportprogress 300 CNT.V Master.V Top.V dut_tb.v 
+# ** Note: (vlog-220) 'C:\Users\user\AppData\Local\quartus\modelsim.ini' is used as the ini file.
+# ** Note: (vlog-223) The environment variable MODELSIM will be deprecated in future releases. Please use QSIM_INI instead.
+# -- Compiling module counter
+# -- Compiling module Master
+# -- Compiling module Top
+# -- Compiling module dut_tb
+# 
+# Top level modules:
+# 	dut_tb
+# End time: 03:15:13 on Jul 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Note: (vsim-220) 'C:\Users\user\AppData\Local\quartus\modelsim.ini' is used as the ini file.
+# ** Note: (vsim-223) The environment variable MODELSIM will be deprecated in future releases. Please use QSIM_INI instead.
+# vsim -voptargs="+acc" dut_tb 
+# Start time: 03:15:13 on Jul 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.dut_tb(fast)
+# Loading work.Top(fast)
+# Loading work.Master(fast)
+# Loading work.counter(fast)
+# Loading work.counter(fast__1)
+# time=  0 ns rst=1 start=0 r_w=0 addr=00 w_data=00000000 SCL=1 SDA=1 done=0 r_data=00000000
+# time= 15 ns rst=0 start=0 r_w=0 addr=00 w_data=00000000 SCL=1 SDA=1 done=0 r_data=00000000
+# time= 35 ns rst=0 start=1 r_w=0 addr=50 w_data=10100101 SCL=1 SDA=1 done=0 r_data=00000000
+# time= 65 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=1 SDA=0 done=0 r_data=00000000
+# time=105 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=0 SDA=1 done=0 r_data=00000000
+# time=145 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=1 SDA=1 done=0 r_data=00000000
+# time=185 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=0 SDA=0 done=0 r_data=00000000
+# time=225 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=1 SDA=0 done=0 r_data=00000000
+# time=265 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=0 SDA=1 done=0 r_data=00000000
+# time=305 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=1 SDA=1 done=0 r_data=00000000
+# time=345 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=0 SDA=0 done=0 r_data=00000000
+# time=385 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=1 SDA=0 done=0 r_data=00000000
+# time=425 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=0 SDA=0 done=0 r_data=00000000
+# time=465 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=1 SDA=0 done=0 r_data=00000000
+# time=505 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=0 SDA=0 done=0 r_data=00000000
+# time=545 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=1 SDA=0 done=0 r_data=00000000
+# time=585 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=0 SDA=0 done=0 r_data=00000000
+# time=625 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=1 SDA=0 done=0 r_data=00000000
+# time=665 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=0 SDA=0 done=0 r_data=00000000
+# time=705 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=1 SDA=0 done=0 r_data=00000000
+# time=745 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=0 SDA=1 done=0 r_data=00000000
+# time=785 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=1 SDA=1 done=0 r_data=00000000
+# time=825 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=1 SDA=0 done=1 r_data=00000000
+# time=835 ns rst=0 start=0 r_w=0 addr=50 w_data=10100101 SCL=1 SDA=1 done=0 r_data=00000000
+# time=875 ns rst=0 start=1 r_w=1 addr=50 w_data=10100101 SCL=1 SDA=1 done=0 r_data=00000000
+# time=885 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=1 SDA=0 done=0 r_data=00000000
+# time=925 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=0 SDA=1 done=0 r_data=00000000
+# time=965 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=1 SDA=1 done=0 r_data=00000000
+# time=1005 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=0 SDA=0 done=0 r_data=00000000
+# time=1045 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=1 SDA=0 done=0 r_data=00000000
+# time=1085 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=0 SDA=1 done=0 r_data=00000000
+# time=1125 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=1 SDA=1 done=0 r_data=00000000
+# time=1165 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=0 SDA=0 done=0 r_data=00000000
+# time=1205 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=1 SDA=0 done=0 r_data=00000000
+# time=1245 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=0 SDA=0 done=0 r_data=00000000
+# time=1285 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=1 SDA=0 done=0 r_data=00000000
+# time=1325 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=0 SDA=0 done=0 r_data=00000000
+# time=1365 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=1 SDA=0 done=0 r_data=00000000
+# time=1405 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=0 SDA=0 done=0 r_data=00000000
+# time=1445 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=1 SDA=0 done=0 r_data=00000000
+# time=1485 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=0 SDA=0 done=0 r_data=00000000
+# time=1525 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=1 SDA=0 done=0 r_data=00000000
+# time=1565 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=0 SDA=1 done=0 r_data=00000000
+# time=1605 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=1 SDA=1 done=0 r_data=00000000
+# time=1645 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=1 SDA=0 done=1 r_data=00000000
+# time=1655 ns rst=0 start=0 r_w=1 addr=50 w_data=10100101 SCL=1 SDA=1 done=0 r_data=00000000
+# time=1695 ns rst=0 start=1 r_w=0 addr=50 w_data=00110011 SCL=1 SDA=1 done=0 r_data=00000000
+# time=1705 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=1 SDA=0 done=0 r_data=00000000
+# time=1745 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=0 SDA=1 done=0 r_data=00000000
+# time=1785 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=1 SDA=1 done=0 r_data=00000000
+# time=1825 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=0 SDA=0 done=0 r_data=00000000
+# time=1865 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=1 SDA=0 done=0 r_data=00000000
+# time=1905 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=0 SDA=1 done=0 r_data=00000000
+# time=1945 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=1 SDA=1 done=0 r_data=00000000
+# time=1985 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=0 SDA=0 done=0 r_data=00000000
+# time=2025 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=1 SDA=0 done=0 r_data=00000000
+# time=2065 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=0 SDA=0 done=0 r_data=00000000
+# time=2105 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=1 SDA=0 done=0 r_data=00000000
+# time=2145 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=0 SDA=0 done=0 r_data=00000000
+# time=2185 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=1 SDA=0 done=0 r_data=00000000
+# time=2225 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=0 SDA=0 done=0 r_data=00000000
+# time=2265 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=1 SDA=0 done=0 r_data=00000000
+# time=2305 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=0 SDA=0 done=0 r_data=00000000
+# time=2345 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=1 SDA=0 done=0 r_data=00000000
+# time=2385 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=0 SDA=1 done=0 r_data=00000000
+# time=2425 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=1 SDA=1 done=0 r_data=00000000
+# time=2465 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=1 SDA=0 done=1 r_data=00000000
+# time=2475 ns rst=0 start=0 r_w=0 addr=50 w_data=00110011 SCL=1 SDA=1 done=0 r_data=00000000
+# ** Note: $stop    : dut_tb.v(65)
+#    Time: 2515 ns  Iteration: 0  Instance: /dut_tb
+# Break in Module dut_tb at dut_tb.v line 65
+package require image
+# can't find package image
+package require image
+# can't find package image
+# image file format "bmp" is unknown
+package require image
+# can't find package image
+vsim -debugDB dut_tb
+# End time: 03:18:17 on Jul 25,2026, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 0
+# ** Note: (vsim-220) 'C:\Users\user\AppData\Local\quartus\modelsim.ini' is used as the ini file.
+# ** Note: (vsim-223) The environment variable MODELSIM will be deprecated in future releases. Please use QSIM_INI instead.
+# vsim -debugDB dut_tb 
+# Start time: 03:18:18 on Jul 25,2026
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Note: (vopt-220) 'C:\Users\user\AppData\Local\quartus\modelsim.ini' is used as the ini file.
+# ** Note: (vopt-223) The environment variable MODELSIM will be deprecated in future releases. Please use QSIM_INI instead.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vopt-143) Recognized 1 FSM in module "Master(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.dut_tb(fast)
+# Loading work.Top(fast)
+# Loading work.Master(fast)
+# Loading work.counter(fast)
+# Loading work.counter(fast__1)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# do startup.do
+# Cannot open macro file: startup.do
+env ..
+# sim:/dut_tb/dut/Master/clk_div_cnt
+env ..
+# sim:/dut_tb/dut/Master
+env ..
+# sim:/dut_tb/dut/Master
+env ..
+# sim:/dut_tb/dut
+env ..
+# sim:/dut_tb
+quit
+# End time: 03:21:23 on Jul 25,2026, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 2
